@@ -33,4 +33,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: public # The branch the action should deploy to.
-          folder: out # The folder the action should deploy to.
+          folder: export # The folder the action should deploy to.
