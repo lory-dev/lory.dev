@@ -1,9 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  distDir: 'build',
+  distDir: 'export',
   output: "export",
-  basePath: "/lory.dev",
   images: {
     unoptimized: true,
   },
