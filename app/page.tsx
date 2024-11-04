@@ -111,7 +111,7 @@ export default function Component() {
               <Card className="bg-black/50 border border-white/10 p-6 h-full transition-transform group-hover:-translate-y-2">
                 <h3 className="text-xl text-neutral-50 font-bold mb-2">Welcome to lory.dev</h3>
                 <p className="text-gray-400">My first post welcoming you all in my website!</p>
-                <div className="mt-4 text-sm text-gray-500">March 10, 2024</div>
+                <div className="mt-4 text-sm text-gray-500">June 27, 2024</div>
               </Card>
             </Link>
             <Link href="/blog" className="group">
