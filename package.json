@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploygh": "gh-pages --cname lory.dev -d build"
+    "deploygh": "gh-pages --cname lory.dev -d export"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",
