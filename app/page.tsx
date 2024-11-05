@@ -11,6 +11,7 @@ import lorydev from './img/lorydev.png'
 
 export default function Component() {
   return (
+    <meta name="apple-mobile-web-app-capable" content="yes">
     <div className="min-h-screen bg-black text-white">
       {/* Header */}
       <header className="fixed top-0 w-full z-50 bg-black/50 backdrop-blur-sm border-b border-white/10">
