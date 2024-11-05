@@ -19,9 +19,6 @@ export default function BlogPost() {
               <Link href="/blog" className="hover:text-primary-foreground/80">
                 Blog
               </Link>
-              <Link href="/contact" className="hover:text-primary-foreground/80">
-                Contact
-              </Link>
             </div>
           </nav>
         </div>
@@ -91,6 +88,9 @@ export default function BlogPost() {
             <div className="flex gap-6">
               <Link href="https://github.com/lory-dev" className="hover:text-primary-foreground/80">
                 GitHub
+              </Link>
+              <Link href="https://games.lory.dev" className="hover:text-primary-foreground/80">
+                Games
               </Link>
             </div>
           </div>

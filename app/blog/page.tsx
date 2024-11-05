@@ -83,6 +83,9 @@ export default function Component() {
               <Link href="https://github.com/lory-dev" className="hover:text-primary-foreground/80">
                 GitHub
               </Link>
+              <Link href="https://games.lory.dev" className="hover:text-primary-foreground/80">
+                Games
+              </Link>
             </div>
           </div>
           <div className="mt-8 text-center text-sm text-gray-500">
