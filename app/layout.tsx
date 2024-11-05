@@ -16,6 +16,9 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "lory.dev",
   description: "game dev",
+  appleWebApp: {
+    capable: true,
+  },
 };
 
 export default function RootLayout({
