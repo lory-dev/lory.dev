@@ -20,6 +20,9 @@ export default function ProjectPage() {
               <Link href="/blog" className="hover:text-primary-foreground/80">
                 Blog
               </Link>
+              <Link href="https://games.lory.dev" className="hover:text-primary-foreground/80">
+                Games
+              </Link>
             </div>
           </nav>
         </div>
