@@ -1,5 +1,5 @@
 
-export default function manifest(): {
+export default function manifest() {
   return {
     name: 'lory.dev',
     short_name: 'Lory',
