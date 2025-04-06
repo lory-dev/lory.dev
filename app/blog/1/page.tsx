@@ -43,7 +43,7 @@ export default function BlogPost() {
               <span>·</span>
               <span>18:05</span>
             </div>
-            <p className="text-gray-300">This post was published on the original lory.dev and may contain outdated information.</p>
+            <p className="text-xl font-bold">This post was published on the original lory.dev and contains outdated information.</p>
 
             <br></br>
 
@@ -92,7 +92,7 @@ export default function BlogPost() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-2xl font-mono font-bold mb-4 md:mb-0">lory.dev</div>
             <div className="flex gap-6">
-              <Link href="https://github.com/lory-dev" className="hover:text-primary-foreground/80">
+              <Link href="https://github.com/lory-dev/lory.dev" target="_blank" className="hover:text-primary-foreground/80">
                 GitHub
               </Link>
               <Link href="https://games.lory.dev" className="hover:text-primary-foreground/80">

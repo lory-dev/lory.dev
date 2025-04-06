@@ -102,7 +102,7 @@ export default function Component() {
       <section className="py-20 bg-gradient-to-b from-gray-90 to-black">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12">Latest Blog Posts</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Link href="/blog/2" className="group">
               <Card className="bg-black/50 border border-white/10 p-6 h-full transition-transform group-hover:-translate-y-2">
                 <h3 className="text-xl text-neutral-50 font-bold mb-2">Welcome to the new lory.dev</h3>
@@ -117,13 +117,13 @@ export default function Component() {
                 <div className="mt-4 text-sm text-gray-500">June 27, 2024</div>
               </Card>
             </Link>
-            <Link href="/blog" className="group">
+            {/*<Link href="/blog" className="group">
               <Card className="bg-black/50 border border-white/10 p-6 h-full transition-transform group-hover:-translate-y-2">
                 <h3 className="text-xl text-neutral-50 font-bold mb-2">coming soon</h3>
                 <p className="text-gray-400">forgot to write this blog post, sorry bro.</p>
                 <div className="mt-4 text-sm text-gray-500">april 20, 2069</div>
               </Card>
-            </Link>
+            </Link>*/}
           </div>
           <div className="text-center mt-12">
             <Button variant="secondary" asChild>
@@ -139,7 +139,7 @@ export default function Component() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-2xl font-mono font-bold mb-4 md:mb-0">lory.dev</div>
             <div className="flex gap-6">
-              <Link href="https://github.com/lory-dev" className="hover:text-primary-foreground/80">
+              <Link href="https://github.com/lory-dev/lory.dev" target="_blank" className="hover:text-primary-foreground/80">
                 GitHub
               </Link>
               <Link href="https://games.lory.dev" className="hover:text-primary-foreground/80">

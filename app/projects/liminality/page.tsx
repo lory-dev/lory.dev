@@ -43,7 +43,7 @@ export default function ProjectPage() {
             <div>
               <h1 className="text-4xl md:text-5xl font-bold mb-6">Liminality</h1>
               <p className="text-xl text-gray-400">
-                The most liminal adventure you'll go on yet.
+                Dive into the world of Liminality and uncover the secrets within.
               </p>
             </div>
 
@@ -60,6 +60,9 @@ export default function ProjectPage() {
               <Button variant="secondary" className="gap-2">
                 <ExternalLink className="w-4 h-4" />
                 <Link href="https://store.steampowered.com/app/2916260/Liminality">Game Link</Link>
+              </Button>
+              <Button variant="secondary" className="gap-2">
+                <Link href="https://games.lory.dev/games/liminality">Games Page</Link>
               </Button>
               <Button  variant="secondary" className="gap-2" disabled>
                 <Github className="w-4 h-4" />
@@ -85,8 +88,13 @@ export default function ProjectPage() {
               <h3 className="text-xl font-bold">Technical Details</h3>
               <ul className="list-disc list-inside text-gray-400 space-y-2">
                 <li>Built with Unreal Engine 5</li>
-                <li>Makes use of Lumen for all the current chapters</li>
+                <li>Makes use of Lumen for most of the current chapters</li>
               </ul>
+
+              <h3 className="text-xl font-bold">Release Date</h3>
+              <p className="text-gray-400">
+                Liminality is releasing on April 20th, 2025 fully (with planned content updates).
+              </p>
 
               <h3 className="text-xl font-bold">Development Process</h3>
               <p className="text-gray-400">
@@ -122,7 +130,7 @@ export default function ProjectPage() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-2xl font-mono font-bold mb-4 md:mb-0">lory.dev</div>
             <div className="flex gap-6">
-              <Link href="https://github.com/lory-dev" className="hover:text-primary-foreground/80">
+              <Link href="https://github.com/lory-dev/lory.dev" target="_blank" className="hover:text-primary-foreground/80">
                 GitHub
               </Link>
               <Link href="https://games.lory.dev" className="hover:text-primary-foreground/80">

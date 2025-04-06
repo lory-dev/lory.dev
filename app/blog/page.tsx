@@ -83,7 +83,7 @@ export default function Component() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-2xl font-mono font-bold mb-4 md:mb-0">lory.dev</div>
             <div className="flex gap-6">
-              <Link href="https://github.com/lory-dev" className="hover:text-primary-foreground/80">
+              <Link href="https://github.com/lory-dev/lory.dev" target="_blank" className="hover:text-primary-foreground/80">
                 GitHub
               </Link>
               <Link href="https://games.lory.dev" className="hover:text-primary-foreground/80">
