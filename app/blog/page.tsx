@@ -34,7 +34,7 @@ export default function Component() {
       <section className="py-20 bg-gradient-to-b from-black to-gray-90" id="projects">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-12">All Blog Posts</h2>
-          <div className="grid grid-cols-2 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="bg-black/50 border border-white/10 p-6">
               <h3 className="text-xl text-neutral-50 font-bold mb-4">My social media website made in Next.js</h3>
               <h2 className="text-gray-500 text-xs">July 25, 2025 18:40</h2>
