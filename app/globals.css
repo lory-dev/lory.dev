@@ -33,6 +33,8 @@
     --ring: 222.2 84% 4.9%;
  
     --radius: 0.5rem;
+
+    --font-wingdings: "Wingdings Remote";
   }
  
   .dark {
@@ -85,4 +87,18 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Wingdings Remote";
+  src: url("https://cdn.statically.io/gh/iykrichie/wps-office-19-missing-fonts-on-Linux/main/wingding.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer utilities {
+  .font-wingdings {
+    font-family: var(--font-wingdings), sans-serif;
+  }
 }

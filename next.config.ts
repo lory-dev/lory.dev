@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   basePath: "",
   assetPrefix: "",
-  /*images: { unoptimized: true }*/
+  images: { unoptimized: true }
 };
 
 export default nextConfig;
